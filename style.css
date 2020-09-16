@@ -1,0 +1,35 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.4rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  background-color: coral;
+}
+.main {
+  background-color: aquamarine;
+}
+.promo {
+  background-color: blueviolet;
+}
+.community {
+  background-color: brown;
+}
+.learn-more {
+  background-color: tan;
+}
+.sign-up {
+  background-color: darkcyan;
+}
+
+.download {
+  background-color: chartreuse;
+}
+
+.footer {
+  background-color: salmon;
+}
