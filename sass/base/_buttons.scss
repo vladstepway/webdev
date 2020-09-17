@@ -1,0 +1,16 @@
+button {
+  background: $primary-button-color;
+  padding: 1.5rem 4.7rem;
+  font-family: $base-font-family;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  color: $text-color;
+  border: 0;
+  cursor: pointer;
+}
+
+button:hover {
+  background: $additional-button-color;
+}

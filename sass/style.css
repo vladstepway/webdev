@@ -1,0 +1,133 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.4rem;
+  font-family: "Roboto", Verdana, sans-serif;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 6.4rem;
+  line-height: 7.5rem;
+  color: #ffffff;
+}
+
+h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+  color: #373737;
+}
+
+h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2rem;
+}
+
+p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+  color: #4e4e4e;
+}
+
+button {
+  background: #00afdb;
+  padding: 1.5rem 4.7rem;
+  font-family: "Roboto", Verdana, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  color: #ffffff;
+  border: 0;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #009cc2;
+}
+
+.wrapper {
+  max-width: 1600px;
+  margin: auto;
+}
+
+.header {
+  background: #000000;
+  color: #ffffff;
+  padding: 2.5rem 0 2.6rem 0;
+}
+
+.navigation {
+  display: flex;
+  line-height: 1.4rem;
+}
+
+.navigation__link {
+  list-style: none;
+  padding: 0 4.3rem;
+  cursor: pointer;
+}
+
+.navigation__logo {
+  padding: 0 6rem;
+}
+
+.footer {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.footer__wrapper {
+  display: flex;
+}
+
+.community {
+  background-color: #f5f6f7;
+}
+
+.learn-more {
+  background-color: #ffffff;
+}
+
+.main {
+  background-image: url(/assets/backgrounds/main_screen_bg.png);
+}
+
+.sign-up {
+  background-image: url(assets/backgrounds/sign_up_bg.png);
+}
+
+.sign-up__heading {
+  color: #ffffff;
+}
+
+.promo {
+  background-color: #ffffff;
+}
+
+.download {
+  background-color: #f5f6f7;
+}
+
+.download__buttons {
+  display: flex;
+}
+
+.download-button__rectangle {
+  background: #009cc2;
+}
+
+.download-button__group {
+  display: flex;
+}
+
+/*# sourceMappingURL=style.css.map */

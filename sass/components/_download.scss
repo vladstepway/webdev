@@ -1,0 +1,15 @@
+.download {
+  background-color: $addition-background-color;
+}
+
+.download__buttons {
+  display: flex;
+}
+
+.download-button__rectangle {
+  background: $additional-button-color;
+}
+
+.download-button__group {
+  display: flex;
+}

@@ -1,0 +1,20 @@
+.header {
+  background: $header-color;
+  color: $text-color;
+  padding: 2.5rem 0 2.6rem 0;
+}
+
+.navigation {
+  display: flex;
+  line-height: 1.4rem;
+}
+
+.navigation__link {
+  list-style: none;
+  padding: 0 4.3rem;
+  cursor: pointer;
+}
+
+.navigation__logo {
+  padding: 0 6rem;
+}
