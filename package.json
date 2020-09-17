@@ -1,0 +1,23 @@
+{
+  "name": "webdev",
+  "version": "1.0.0",
+  "description": "Create page according to the layout design",
+  "main": "index.js",
+  "scripts": {
+    "style": "sass --watch sass/style.scss sass/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladstepway/webdev.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vladstepway/webdev/issues"
+  },
+  "homepage": "https://github.com/vladstepway/webdev#readme",
+  "dependencies": {
+    "sass": "^1.26.10"
+  }
+}
