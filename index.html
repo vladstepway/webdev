@@ -14,13 +14,13 @@
         <div class="wrapper">
             <nav class="header__navigation">
                 <ul class="navigation">
-                    <li>About</li>
-                    <li>Syllabus</li>
-                    <li>
+                    <li class="navigation__link"><a href="#">About</a></li>
+                    <li class="navigation__link"><a href="#">Syllabus</a></li>
+                    <li class="navigation__link navigation__logo">
                         <a href="#" class="logo"><img src="assets/logo.svg" alt="logo"></a>
                     </li>
-                    <li>Projects</li>
-                    <li>FAQ</li>
+                    <li class="navigation__link"><a href="#">Projects</a></li>
+                    <li class="navigation__link"><a href="#">FAQ</a></li>
                 </ul>
             </nav>
         </div>
@@ -37,10 +37,10 @@
             </div>
             <div class="main__socials">
                 <ul>
-                    <li><a href="mailto:test@test.com"><img src="assets/mail_fff.svg" alt="mail_icon"></a></li>
-                    <li><a href="#"><img src="assets/facebook_fff.svg" alt="facebook_icon"></a></li>
-                    <li><a href="#"><img src="assets/insta_fff.svg" alt="insta-icon"></a></li>
-                    <li><a href="#"><img src="assets/youtube_icon.svg" alt="youtube_icon"></a></li>
+                    <li><a href="mailto:test@test.com"><img src="assets/icons/mail_fff.svg" alt="mail_icon"></a></li>
+                    <li><a href="#"><img src="assets/icons/facebook_fff.svg" alt="facebook_icon"></a></li>
+                    <li><a href="#"><img src="assets/icons/insta_fff.svg" alt="insta-icon"></a></li>
+                    <li><a href="#"><img src="assets/icons/youtube_icon.svg" alt="youtube_icon"></a></li>
                 </ul>
             </div>
         </div>
@@ -48,8 +48,8 @@
     <section class="promo">
         <div class="wrapper">
             <div class="promo__content">
-                <h3>Rappresent your idea with
-                    a smart Design</h3>
+                <h2>Rappresent your idea with
+                    a smart Design</h2>
                 <p>Tasks accompanying and related to programming include: testing, debugging, source code maintenance,
                     <strong>implementation of build systems</strong>, and management of derived artifacts, such as the
                     machine code of
@@ -59,7 +59,7 @@
                 </div>
             </div>
             <div class="promo__image">
-                <img src="assets/promo-image.png" alt="promo-image">
+                <img src="assets/idea/idea.png" alt="idea-image">
             </div>
         </div>
     </section>
@@ -67,8 +67,8 @@
         <div class="wrapper">
             <div class="community__content">
                 <div class="community__info">
-                    <img src="/assets/community-icon.svg" alt="community-image">
-                    <h4>our community</h4>
+                    <img src="/assets/icons/community-icon.svg" alt="community-image">
+                    <h3>Our community</h3>
                     <p>A hacker is any skilled computer expert that uses their technical knowledge to overcome a
                         problem,
                         but it can also mean a security hacker in common language</p>
@@ -82,10 +82,10 @@
     <section class="learn-more">
         <div class="wrapper">
             <div class="learn-more__image">
-                <img src="assets/learn-more.png" alt="learn-more-image">
+                <img src="assets/learn-more/learn-more.png" alt="learn-more-image">
             </div>
             <div class="learn-more__content">
-                <h3>Implement right code</h3>
+                <h2>Implement right code</h2>
                 <p>These might be considered part of the <strong>programming process</strong>, but often the term
                     software development is
                     used for this larger process with the term programming, implementation</p>
@@ -100,7 +100,7 @@
             <h2>SIGN UP FOR OUR NEWSLETTER</h2>
             <div class="sign-up__form">
                 <form action="" method="post">
-                    <div class="sign-up__input">
+                    <div class="sign-up__input  ">
                         <input type="email" name="email" placeholder="E-mail">
                         <button type="submit">SEND</button>
                     </div>
@@ -115,8 +115,18 @@
                 <p>Machine code was the language of early programs, written in the instruction set of the particular
                     machine, often in binary notation.</p>
                 <div class="download__buttons">
-                    <button class="button button_not-active">APPLE STORE</button>
-                    <button class="button button_not-active">PLAY MARKET</button>
+                    <div class="download-button__group">
+                        <button class="button button_not-active">APPLE STORE</button>
+                        <div class="download-button__rectangle">
+                            <img src="assets/icons/apple-icon.svg" alt="apple-icon">
+                        </div>
+                    </div>
+                    <div class="download-button__group">
+                        <button class="button button_not-active">PLAY MARKET</button>
+                        <div class="download-button__rectangle">
+                            <img src="assets/icons/android-icon.svg" alt="android-icon">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
