@@ -1,35 +1,133 @@
+:root {
+  --primary-button-color: #00afdb;
+  --additional-button-color: #009cc2;
+  --addition-background-color: #f5f6f7;
+  --icon-color: #009cc2;
+  --hover-color: #009cc2;
+  --header-color: #000000;
+  --footer-color: #000000;
+  --background-color: #ffffff;
+  --text-color: #ffffff;
+  --links-color: #ffffff;
+  --heading-color: #000000;
+  --base-font-size: 10px;
+  --content-width: 1600px;
+  --max-width: 1600px;
+  --base-font-family: 'Roboto', Verdana, sans-serif;
+}
+
 html {
-  font-size: 10px;
+  font-size: var(--base-font-size);
 }
 
 body {
   font-size: 1.4rem;
-  font-family: 'Roboto',Verdana, sans-serif;
+  font-family: var(--base-font-family);
+}
+
+h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 6.4rem;
+  line-height: 7.5rem;
+  color: var(--text-color);
+}
+
+h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+}
+
+h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2rem;
+}
+
+p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+}
+
+.wrapper {
+  max-width: var(--max-width);
+  margin: auto;
+}
+
+button {
+  background: var(--primary-button-color);
+  padding: 1.5rem 4.7rem;
+  font-family: var(--base-font-family);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  color: var(--text-color);
+  border: 0;
+  cursor: pointer;
 }
 
 .header {
-  background-color: coral;
+  background: var(--header-color);
+  color: var(--text-color);
+  padding: 2.5rem 0 2.6rem 0;
 }
+
+.navigation {
+  display: flex;
+  line-height: 1.4rem;
+}
+
+.navigation__link {
+  list-style: none;
+  padding: 0 4.3rem;
+  cursor: pointer;
+}
+
+.navigation__logo {
+  padding: 0 6rem;
+}
+
 .main {
-  background-color: aquamarine;
+  background-image: url(/assets/backgrounds/main_screen_bg.png);
 }
 .promo {
-  background-color: blueviolet;
+  background-color: var(--background-color);
 }
 .community {
-  background-color: brown;
+  background-color: var(--addition-background-color);
 }
 .learn-more {
-  background-color: tan;
+  background-color: var(--background-color);
 }
 .sign-up {
-  background-color: darkcyan;
+  background-image: url(assets/backgrounds/sign_up_bg.png);
 }
 
 .download {
-  background-color: chartreuse;
+  background-color: var(--addition-background-color);
 }
 
+.download__buttons {
+  display: flex;
+}
+
+.download-button__rectangle {
+  background: var(--additional-button-color);
+}
+.download-button__group {
+  display: flex;
+}
 .footer {
-  background-color: salmon;
+  background-color: var(--footer-color);
+  color: var(--text-color);
+}
+
+.footer__wrapper {
+  display: flex;
 }
