@@ -1,21 +1,41 @@
 .header {
   background: $header-color;
   color: $text-color;
-  padding: 1rem 0 0.9rem 0;
 }
+
+.header__wrapper{
+  padding: 2.5rem 0 2.6rem 42rem;
+}
+
+
 
 .navigation {
   margin: 0;
   display: flex;
-  line-height: 1.4rem;
+  line-height: 1.5rem;
 }
 
 .navigation__link {
   list-style: none;
-  padding: 0 4.3rem;
+  padding: 1.6rem 4.25rem;
   cursor: pointer;
+}
+.navigation__link a {
+  text-decoration: none;
+}
+
+.navigation__link a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: #fff;
 }
 
 .navigation__logo {
-  padding: 0 6rem;
+  padding: 0 5.8rem;
+}
+a .logo{
+  margin: 0;
+  padding: 0;
 }
