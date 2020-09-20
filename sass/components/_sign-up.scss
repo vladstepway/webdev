@@ -1,7 +1,16 @@
 .sign-up {
-  background-image: url(assets/backgrounds/sign_up_bg.png);
+  background-image: url(../../assets/backgrounds/sign_up_bg.png);
 }
 
 .sign-up__heading {
   color: $text-color;
+}
+
+.sign-up__check{
+  background-image: url(../../assets/icons/fa-check.svg);
+  background-color: $primary-button-color;
+
+}
+.sign-up__check:hover{
+  background: $additional-button-color;
 }

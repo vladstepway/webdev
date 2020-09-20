@@ -6,6 +6,10 @@
   display: flex;
 }
 
+.download__buttons > .download-button__group{
+  margin-left: 3rem;
+}
+
 .download-button__rectangle {
   background: $additional-button-color;
 }
