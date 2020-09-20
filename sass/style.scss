@@ -1,3 +1,6 @@
+@import "../node_modules/normalize-scss/sass/normalize";
+
+@include normalize();
 @import 'abstract/constants';
 @import 'base/base';
 @import 'base/buttons';
@@ -7,9 +10,9 @@
 @import "layouts/footer";
 
 //Components
+@import "components/your-life";
+@import "components/rappresent";
 @import "components/community";
-@import "components/learn-more";
-@import "components/main";
-@import "components/sign-up";
-@import "components/promo";
+@import "components/implement";
 @import "components/download";
+@import "components/sign-up";
