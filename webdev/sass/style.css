@@ -454,6 +454,8 @@ html {
 }
 
 body {
+  margin: auto;
+  max-width: 1600px;
   font-size: 1.4rem;
   font-family: "Roboto", Verdana, sans-serif;
 }
@@ -545,7 +547,7 @@ button:hover {
 }
 
 .your-life {
-  background-image: url(../../assets/backgrounds/main_screen_bg.png);
+  background-image: url(/webdev/assets/backgrounds/main_screen_bg.png);
 }
 
 .socials {
@@ -610,7 +612,7 @@ button:hover {
 }
 
 .sign-up {
-  background-image: url(../../assets/backgrounds/sign_up_bg.png);
+  background-image: url(/webdev/assets/backgrounds/sign_up_bg.png);
 }
 
 .sign-up__heading {
@@ -618,7 +620,7 @@ button:hover {
 }
 
 .sign-up__check {
-  background-image: url(../../assets/icons/fa-check.svg);
+  background-image: url(/webdev/assets/icons/fa-check.svg);
   background-color: #00afdb;
 }
 
