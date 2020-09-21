@@ -4,7 +4,7 @@
   color: $text-color;
 }
 
-.header__wrapper{
+.header__wrapper {
   padding: 2.4rem 0 2.4rem 42rem;
 }
 
@@ -12,6 +12,16 @@
   margin: 0;
   display: flex;
   line-height: 1.5rem;
+}
+.navigation li:first-child {
+  text-decoration: underline;
+}
+.navigation li:first-child:hover {
+  text-decoration: none;
+}
+
+.navigation li:hover {
+  text-decoration: underline;
 }
 
 .navigation__link {
@@ -34,7 +44,7 @@ a:active {
 .navigation__logo {
   padding: 0 5.8rem;
 }
-a .logo{
+a .logo {
   margin: 0;
   padding: 0;
 }
