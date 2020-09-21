@@ -4,16 +4,40 @@
 
 .download__buttons {
   display: flex;
-}
-
-.download__buttons > .download-button__group{
-  margin-left: 3rem;
+  padding-top: 0.1rem;
+  margin: 0 3.9rem;
+  justify-content: space-between;
 }
 
 .download-button__rectangle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: $additional-button-color;
+  width: 5.9rem;
+  height: 4.6rem;
 }
 
 .download-button__group {
   display: flex;
+}
+
+.download__wrapper {
+  padding: 12rem 56rem 18rem 56rem;
+  text-align: center;
+}
+
+.download__subtitle {
+  padding-bottom: 2rem;
+  letter-spacing: 0.1rem;
+}
+
+.download__motto {
+  padding-bottom: 3rem;
+  line-height: 140%;
+}
+
+.download-button__group button {
+  width: 12.7rem;
+  height: 4.6rem;
 }
