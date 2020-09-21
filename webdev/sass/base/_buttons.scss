@@ -1,6 +1,5 @@
 button {
   background: $primary-button-color;
-  padding: 1.5rem 4.7rem;
   font-family: $base-font-family;
   font-style: normal;
   font-weight: bold;
@@ -8,8 +7,12 @@ button {
   line-height: 1.6rem;
   color: $text-color;
   border: 0;
+  padding: 0;
   cursor: pointer;
-  transition: all .3s;
+  transition: all 0.3s;
+}
+input {
+  padding: 0;
 }
 
 button:hover {

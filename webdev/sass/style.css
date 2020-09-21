@@ -498,7 +498,6 @@ p {
 
 button {
   background: #00afdb;
-  padding: 1.5rem 4.7rem;
   font-family: "Roboto", Verdana, sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -506,8 +505,13 @@ button {
   line-height: 1.6rem;
   color: #ffffff;
   border: 0;
+  padding: 0;
   cursor: pointer;
   transition: all 0.3s;
+}
+
+input {
+  padding: 0;
 }
 
 button:hover {
@@ -594,6 +598,14 @@ a .logo {
 
 .your-life__button {
   padding: 3rem 0 0 27.4rem;
+  width: 184px;
+  height: 46px;
+}
+
+.your-life__button button {
+  width: 184px;
+  height: 46px;
+  text-transform: uppercase;
 }
 
 .your-life__socials {
@@ -642,6 +654,8 @@ a .logo {
   font-size: 1.4rem;
   line-height: 1.6rem;
   text-transform: uppercase;
+  width: 184px;
+  height: 46px;
 }
 
 .rappresent__image {
@@ -737,6 +751,12 @@ a .logo {
   line-height: 140%;
 }
 
+.implement__button button {
+  text-transform: uppercase;
+  width: 180px;
+  height: 46px;
+}
+
 .download {
   background-color: #f5f6f7;
 }
@@ -758,20 +778,40 @@ a .logo {
 }
 
 .sign-up {
-  background-image: url(/webdev/assets/backgrounds/sign_up_bg.png);
+  background: url(/webdev/assets/backgrounds/sign_up_bg.png);
 }
 
 .sign-up__heading {
   color: #ffffff;
+  text-transform: uppercase;
+  padding-bottom: 3rem;
+  letter-spacing: 0.1rem;
 }
 
-.sign-up__check {
-  background-image: url(/webdev/assets/icons/fa-check.svg);
+.sign-up__button {
   background-color: #00afdb;
+  width: 6.6rem;
+  height: 4.6rem;
 }
 
-.sign-up__check:hover {
+.sign-up__button:hover {
   background: #009cc2;
+}
+
+.sign-up__wrapper {
+  text-align: center;
+  padding: 20rem 59.7rem 22rem 59.7rem;
+}
+
+.sign-up__input {
+  display: flex;
+}
+
+.sign-up__input input[name=email] {
+  width: 34rem;
+  height: 4.6rem;
+  border: 0;
+  text-indent: 2.3rem;
 }
 
 /*# sourceMappingURL=style.css.map */
