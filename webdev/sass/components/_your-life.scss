@@ -1,13 +1,40 @@
 .your-life {
-  background-image: url(/webdev/assets/backgrounds/main_screen_bg.png);
+  min-height: $min-height;
+  background: url(/webdev/assets/backgrounds/main_screen_bg.png);
+}
+
+.your-life__content {
+  padding: 23rem 0 0 27.5rem;
+}
+
+.your-life__subtitle {
+  letter-spacing: 0.45rem;
+  text-transform: uppercase;
+}
+
+.your-life__motto {
+  font-size: 1.8rem;
+  line-height: 140%;
+  color: $text-color;
+  padding: 2rem 41.3rem 0 14rem;
+}
+
+.your-life__button {
+  padding: 3rem 0 0 27.4rem;
+}
+
+.your-life__socials {
+  padding: 18.3rem 0 8.6rem 55.5rem;
 }
 
 .socials {
   display: flex;
+  margin: 0;
+  padding: 0;
 }
 
 .socials__link {
   list-style: none;
-  padding: 18.3rem 3rem 8.9rem 0;
+  padding-right: 3rem;
   cursor: pointer;
 }
