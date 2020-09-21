@@ -1,6 +1,62 @@
 .community {
   background-color: $addition-background-color;
 }
-.community__wrapper{
+.community__wrapper {
   display: flex;
+  padding: 8.2rem 0 13.7rem 26.9rem;
+  margin: 0;
+}
+.community__content {
+  margin-top: 7rem;
+  text-align: center;
+}
+.community__content img {
+  margin-top: 0.3rem;
+}
+
+.community__slider {
+  padding-left: 10rem;
+  margin-right: -5rem;
+}
+
+.community__subtitle {
+  margin: 0;
+  padding-top: 1.6rem;
+  margin-left: 0.4rem;
+  text-transform: uppercase;
+  letter-spacing: 2.4px;
+}
+
+.community__motto {
+  padding-top: 1.3rem;
+  line-height: 140%;
+}
+
+.slider__pagination {
+  margin-left: 58.4rem;
+  font-size: 18px;
+  line-height: 100%;
+}
+
+.slider__pagination span {
+  margin: 2px;
+}
+
+.slider__content {
+  display: flex;
+  list-style: none;
+  margin: 2rem 0 0 0;
+}
+
+.slider__content li:nth-child(3) {
+  width: 2rem;
+  overflow: hidden;
+}
+
+.slider__item:not(:first-child) {
+  padding-left: 3rem;
+}
+
+.slider__arrow :hover {
+  opacity: 0.5;
 }
