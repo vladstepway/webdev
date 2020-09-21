@@ -1,7 +1,22 @@
-.implement {
+.implement__wrapper {
   background-color: $background-color;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 11.8rem 37.8rem 13.8rem 26.9rem;
 }
 
-.implement__wrapper {
-  display: flex;
+.implement__content {
+  text-align: left;
+  margin-left: 13.9rem;
+}
+
+.implement__subtitle {
+  letter-spacing: 0.1rem;
+}
+
+.implement__motto {
+  text-align: left;
+  padding: 2rem 0 3rem 0;
+  line-height: 140%;
 }
