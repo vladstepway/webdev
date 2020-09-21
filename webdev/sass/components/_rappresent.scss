@@ -1,14 +1,35 @@
-.rappresent {
-  padding: 12rem 27rem 14rem 26.8rem;
-}
-
 .rappresent__wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: $background-color;
+  padding: 12rem 26.9rem 14rem 26.9rem;
 }
 
 .rappresent__content {
   padding-right: 24.8rem;
+}
+
+.rappresent__subtitle {
+  color: $additional-heading-color;
+  letter-spacing: 0.1rem;
+  margin-right: 3rem;
+}
+
+.rappresent__motto {
+  margin: 2rem 0 3.2rem 0;
+  text-align: left;
+  line-height: 140%;
+}
+
+.rappresent__button button {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  text-transform: uppercase;
+}
+
+.rappresent__image{
+  height: 58.2rem;
 }
