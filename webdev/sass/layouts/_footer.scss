@@ -3,6 +3,40 @@
   color: $text-color;
 }
 
-.footer__wrapper {
+.footer__navigation {
   display: flex;
+  padding: 6rem 0 8.1rem 0;
+}
+
+.navigation__links {
+  list-style: none;
+  display: flex;
+  margin: 1.5rem 0 0 -2rem;
+  padding: 0;
+}
+
+.links {
+  padding-right: 35.8rem;
+  
+}
+
+.footer__link {
+  cursor: pointer;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+.footer__link a {
+  text-decoration: none;
+}
+
+.copyright {
+  margin: 1.5rem 0 0 0;
+}
+
+.footer__logo {
+  padding-right: 44.7rem;
+}
+
+.navigation__links li:hover {
+  text-decoration: underline;
 }
